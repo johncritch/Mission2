@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Critch Course</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <link rel="icon" href="img/icon.png">
+</head>
+<body class="text-center">
+    <br />
+    <h1 class="display-3">John Critchlow Crash Course</h1>
+
+    <br />
+    <p>This is me and my family at a Tennessee Titans Game. I love sports and love spending time with the people I love.</p>
+    <img src="img/Family.JPG" width="800px" height="450px"/>
+    <br />
+    <br />
+    <!--Paragraph about IS413 in div box-->
+    <div class="box">
+        <p style="text-indent:10%">
+            As part of the IS 413 class, I'd love to expound my knowledge in web development. I've been exposed to bits and pieces using during previous IS classes,
+            and I am ready for the complexity and all the new avenues we will explore. I'm excited to work with ASP.NET and various libraries that assist in the
+            development of web applications. I hope the experience I gain in this class will help me in my future carreers as I am more exposed to a higher level of
+            programming. Working as a team is also very important in this class, and I know I will learn leadership and cooperation throughout this course.
+        </p>
+        <ol>
+            Top #3 Jobs I am most interested in:
+            <li>Apple Product Manager</li>
+            <li>Tesla Technical Program Manager</li>
+            <li>Meta Data Scientist</li>
+        </ol>
+    </div>
+
+    <!--Grade Calculator--> 
+    <div class="calculator"><br />
+        <h4 class="text-center">Grade Calculator</h4><br />
+            <form>
+                <label>Assignments:</label>
+                <input id="assignments" /><br /><br />
+                <label>Group Project:</label>
+                <input id="group" /><br /><br />
+                <label>Quizzes:</label>
+                <input id="quiz" /><br /><br />
+                <label>Exams:</label>
+                <input id="exam" /><br /><br />
+                <label>INTEX:</label>
+                <input id="intex" /><br /><br />
+                <div class="text-center">
+                     <button class="btn btn-light" id="btnSend" type="button">Calculate</button>
+                </div>
+            </form><br />
+    </div>
+    <br />
+    <!--Final grade is outputted based on javascript-->
+    <h4>Final Grade: <span id="final"></span> <span id="letter"></span></h4>
+    <br />
+    <br />
+
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
